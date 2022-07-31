@@ -243,7 +243,7 @@ async def verifyLoggerGroup():
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @Jepthon"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon.jpg")
         _, groupid = await create_supergroup(
-            "مجموعة اشعارات جيبثون ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة اشعارات انتيثون ", jepiq, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("⌯︙تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
@@ -269,7 +269,7 @@ async def verifyLoggerGroup():
                 "⌯︙حدث استثناء عند محاولة التحقق من PM_LOGGER_GROUP_ID.\n" + str(e)
             )
     else:
-        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @Jepthon"
+        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @lDDDDV"
         photobt = await jepiq.upload_file(file="JepIQ/razan/resources/start/Jepthon2.jpg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", jepiq, Config.TG_BOT_USERNAME, descript, photobt
