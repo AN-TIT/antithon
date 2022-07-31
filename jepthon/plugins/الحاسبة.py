@@ -5,7 +5,7 @@ from telethon.events import CallbackQuery, InlineQuery
 
 from jepthon import CMD_HELP, jepiq
 
-# 𝗧𝗲𝗹𝗲𝗚𝗿𝗮𝗠 : @Jepthon  ~ @lMl10l
+# 𝗧𝗲𝗹𝗲𝗚𝗿𝗮𝗠 : @lDDDDV  ~ @lDDDDT
 from ..core.decorators import check_owner
 
 CALC = {}
@@ -60,7 +60,7 @@ async def inlinecalc(event):
     ) and string == "calc":
         event.builder
         calc = event.builder.article(
-            "Calc", text="**الحـاسبة العـلمية لسـورس جيبثون\n @Jepthon**", buttons=lst
+            "Calc", text="**الحـاسبة العـلمية لسـورس انتيثون\n @lDDDDV**", buttons=lst
         )
         await event.answer([calc])
 
@@ -76,7 +76,7 @@ async def _(e):  # sourcery no-metrics
         if CALC.get(user):
             CALC.pop(user)
         await e.edit(
-            "**الحـاسبة العـلمية لسـورس جيبثون\n @jepthon**",
+            "**الحـاسبة العـلمية لسـورس انتيثون\n @lDDDDV**",
             buttons=[Button.inline("افتح مره اخرى", data="recalc")],
         )
     elif x == "C":
@@ -160,7 +160,7 @@ async def _(e):
     tultd = [Button.inline(f"{x}", data=f"calc{x}") for x in m]
     lst = list(zip(tultd[::4], tultd[1::4], tultd[2::4], tultd[3::4]))
     lst.append([Button.inline("=", data="calc=")])
-    await e.edit("**الحـاسبة العـلمية لسـورس جيبثون\n @jepthon**", buttons=lst)
+    await e.edit("**الحـاسبة العـلمية لسـورس انتيثون\n @lDDDDV**", buttons=lst)
 
 CMD_HELP.update(
     {"الحسابة": ".حاسبة" "\n فقط اكتب الامر لعرض حاسبة علميه تحتاج الى تفعيل وضع الانلاين اولا\n\n"}
