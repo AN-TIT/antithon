@@ -8,8 +8,8 @@ from .core.session import jepiq
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.0.0"
-__license__ = "كـتابة وتـعديل فريـق جيبثون"
-__author__ = "جيبثون <https://T.ME/Jepthon>"
+__license__ = "كـتابة وتـعديل فريـق انتيثون"
+__author__ = "انتيثون <https://T.ME/lDDDDV>"
 __copyright__ = "JEPTHON TEAM (C) 2020 - 2021  " + __author__
 
 jepiq.version = __version__
@@ -21,8 +21,8 @@ StartTime = time.time()
 JMVERSION = "5.2.0"
 
 
-if Config.UPSTREAM_REPO == "jepthoniq":
-    UPSTREAM_REPO_URL = "https://github.com/jepthoniq/jepthon"
+if Config.UPSTREAM_REPO == "antithon":
+    UPSTREAM_REPO_URL = "https://github.com/AN-TIT/antithon"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
