@@ -43,7 +43,7 @@ lst.append([Button.inline("=", data="calc=")])
 async def icalc(e):
     if e.client._bot:
         return await e.reply(
-            "**الحـاسبة العـلمية لسـورس جيبثون\n @jepthon**", buttons=lst
+            "**الحـاسبة العـلمية لسـورس انتيثون\n @lDDDDV**", buttons=lst
         )
     results = await e.client.inline_query(Config.TG_BOT_USERNAME, "calc")
     await results[0].click(e.chat_id, silent=True, hide_via=True)
