@@ -245,7 +245,7 @@ async def permalink(mention):
 
 @jepiq.on(admin_cmd(pattern="سيد(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
-    await edit_or_reply(mention, f"سماحة السيد حسين علي مطور سورس جيبثون @Jepthon")
+    await edit_or_reply(mention, f"سماحة السيد حسين علي مطور سورس جيبثون @lDDDDV")
 
 @jepiq.on(admin_cmd(pattern="رفع ايجة(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -407,4 +407,4 @@ ownersayed_id = 705475246
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownersayed_id :
-        order = await event.reply('اهلا بتاج راسنا وحامي عرضنه السيد - @Jepthon')
+        order = await event.reply('اهلا بتاج راسنا وحامي عرضنه احمد - @lDDDDV')
